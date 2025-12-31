@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akn:akomaNtoso xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <akn:act name="section">
+    <akn:meta>
+      <akn:identification source="#njleg">
+        <akn:FRBRWork>
+          <akn:FRBRthis value="/akn/us-nj/act/njrs/43_0_0" />
+          <akn:FRBRuri value="/akn/us-nj/act/njrs/43_0_0" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#njleg" />
+          <akn:FRBRcountry value="us-nj" />
+          <akn:FRBRnumber value="43:0-0" />
+          <akn:FRBRname value="njrs" />
+        </akn:FRBRWork>
+        <akn:FRBRExpression>
+          <akn:FRBRthis value="/akn/us-nj/act/njrs/43_0_0/eng@2025-12-31" />
+          <akn:FRBRuri value="/akn/us-nj/act/njrs/43_0_0/eng@2025-12-31" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#cosilico" />
+          <akn:FRBRlanguage language="eng" />
+        </akn:FRBRExpression>
+        <akn:FRBRManifestation>
+          <akn:FRBRthis value="/akn/us-nj/act/njrs/43_0_0/eng@2025-12-31/main.xml" />
+          <akn:FRBRuri value="/akn/us-nj/act/njrs/43_0_0/eng@2025-12-31/main.xml" />
+          <akn:FRBRdate date="2025-12-31" name="generation" />
+          <akn:FRBRauthor href="#cosilico" />
+        </akn:FRBRManifestation>
+      </akn:identification>
+      <akn:references source="#cosilico">
+        <akn:TLCOrganization eId="njleg" href="/ontology/organization/nj/legislature" showAs="New Jersey Legislature" />
+        <akn:TLCOrganization eId="cosilico" href="/ontology/organization/cosilico" showAs="Cosilico" />
+      </akn:references>
+    </akn:meta>
+    <akn:body>
+      <akn:hcontainer name="title" eId="title_43">
+        <akn:num>Title 43</akn:num>
+        <akn:heading>Pensions and Retirement and Unemployment Compensation</akn:heading>
+        <akn:section eId="sec_43_0_0">
+          <akn:num>43:0-0</akn:num>
+          <akn:heading>Title 43 - Pensions and Retirement and Unemployment Compensation</akn:heading>
+          <akn:content>
+            <akn:p>New Jersey Revised Statutes Title 43: Pensions and Retirement and Unemployment Compensation</akn:p>
+            <akn:p>This title requires manual fetching from the NJ Legislature website.</akn:p>
+          </akn:content>
+        </akn:section>
+      </akn:hcontainer>
+    </akn:body>
+  </akn:act>
+</akn:akomaNtoso>
